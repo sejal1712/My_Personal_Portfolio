@@ -6,7 +6,7 @@ var typed = new Typed('#element', {
 
 document.addEventListener('DOMContentLoaded', function() {
 document.getElementById('download-resume').addEventListener('click', function(){
-  const resumePath = 'Home/Sejal_Kushwaha_Resume.pdf';
+  const resumePath = 'Sejal_Kushwaha_Resume.pdf';
 
   const link = document.createElement('a');
   link.href = resumePath;

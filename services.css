@@ -1,0 +1,98 @@
+.firstSection{
+  position: relative;
+  margin-left: -5rem;
+}
+
+
+.service-section{
+  position: relative;
+  text-align: center;
+  margin-top: -70px;
+  margin-bottom: 200px;
+  align-items: center;
+}
+
+.about-sections {
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+  margin-top: 4rem;
+}
+
+.about-section {
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgb(83, 90, 128);
+  text-align: center;
+}
+
+.about-section h2 {
+  margin: 0;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.about-section .content {
+  margin: 0;
+  padding: 0 20px;
+  background-color: #2e2e2e;
+  color: #ccc;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+
+}
+
+.about-section.active .content {
+  max-height: 500px;
+  padding: 10px 20px;
+  opacity: 1;
+}
+
+.toggle {
+  font-size: 2.5rem;
+  user-select: none;
+  transition: transform 0.3s ease;
+  margin-left: 20px; /* Adjust space between the header and the "+" */
+
+}
+
+.toggle.open {
+  transform: rotate(45deg);
+}
+
+.learning{
+  text-align: center;
+  position: relative;
+  top: -15rem;
+}
+
+.learning {
+  font-family: sans-serif; /* Choose a suitable font for your website */
+  overflow: hidden; /* Important for animation */
+  border-right: 3px solid #000; /* Optional border */
+  white-space: nowrap; /* Prevent line wrapping */
+  margin: 10px auto; /* Center the element */
+  letter-spacing: 3px; /* Adjust letter spacing for visual effect */
+  animation: typing 3.5s steps(40, end) forwards; /* Animation properties */
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@media screen and (max-width: 1400px) {
+
+  main {
+    position: relative;
+    left: 3rem;
+  }
+}

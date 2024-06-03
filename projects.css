@@ -64,6 +64,11 @@
   transform: translateY(0);
 }
 
+.airbnb{
+  width: 50%;
+  height: 70%;
+}
+
 
 .currency{
   max-width: 40%;
